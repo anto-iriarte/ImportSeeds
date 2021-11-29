@@ -1,0 +1,40 @@
+@media only screen and (min-width:1024px) {
+
+    footer {
+        display: grid;
+        width: 100%;
+        height: auto;
+        background-color: #BBBF41;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .footIndex {
+        text-decoration: black;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 30px;
+    }
+
+    .guiaFloracion {
+        display: flex;
+        justify-content: right;
+    }
+
+    .produDest {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        background-image: linear-gradient(#BBBF41, #8C7D30);
+    }
+    
+    #div__section2__text{
+        text-align: center;
+        border-radius: 10%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        }
+   }

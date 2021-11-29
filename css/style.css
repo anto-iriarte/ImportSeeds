@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+}
+
+html body {
+  max-width: 1400px;
+}
+
+html body header div nav {
+  width: 100%;
+  text-decoration: none;
+  color: #D3D936;
+  text-shadow: black;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 1000;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+html body header div nav .logoimport {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body main {
+  width: 100%;
+  height: auto;
+}
+
+html body main div {
+  width: auto;
+  height: auto;
+}
+
+html body footer {
+  width: 100%;
+  height: auto;
+  background-color: #BBBF41;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-text-decoration: black;
+          text-decoration: black;
+  font-family: 'Shadows Into Light', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body footer .footIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body footer .footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline-block;
+  margin: 3px;
+}
+
+html body footer .footer__redes .instagram-icono {
+  background-image: url("../imagenes/instagram.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline-block;
+}
+
+html body footer .footer__redes .whatsapp-icono {
+  background-image: url("../imagenes/whatsapp.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline-block;
+}
+
+html #guiaVegetativa {
+  background-color: #D9D9D9;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 20;
+}
+
+.fotoProdu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  background-repeat: no-repeat;
+  height: 200px;
+  background-image: url(../imagenes/010920.png);
+  background-size: contain;
+  background-color: #8C7D30;
+  border-radius: 10px;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fotoProdu:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+#imagen1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main h1 {
+  font-family: 'Shadows Into Light', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
+  background-image: linear-gradient(#BBBF41, #8C7D30);
+}
+
+body main p {
+  text-align: center;
+  background-color: brown;
+}
+
+body main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body main section h2 {
+  font-family: 'Shadows Into Light', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
+  background-image: linear-gradient(#BBBF41, #8C7D30);
+}
+
+body main section div textarea {
+  display: none;
+}
+
+.div__card1, .div__card2 {
+  display: inline-block;
+  text-align: center;
+  border: solid 1px black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.div__card1 img, .div__card2 img {
+  width: 40vw;
+}
+
+#div__section2__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border-radius: 10%;
+  margin: 20px;
+  width: 40vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.div__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+form a {
+  margin-top: 20px;
+  border-style: double;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: whitesmoke;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #BBBF41;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footIndex {
+    -webkit-text-decoration: black;
+            text-decoration: black;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+  }
+  .guiaFloracion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .produDest {
+    width: 100%;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
+    background-image: linear-gradient(#BBBF41, #8C7D30);
+  }
+  #div__section2__text {
+    text-align: center;
+    border-radius: 10%;
+    margin: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logoimport {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  footer {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: #BBBF41;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footIndex {
+    -webkit-text-decoration: black;
+            text-decoration: black;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30;
+  }
+  .produDest {
+    width: 100%;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
+    background-image: linear-gradient(#BBBF41, #8C7D30);
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,91 @@
+$animal: perro;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    main {
+
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+        h1 {
+            font-family: 'Shadows Into Light', cursive;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-image: linear-gradient(#BBBF41, #8C7D30);
+        }
+
+        p {
+            text-align: center;
+
+            @if $animal==gato {
+                background-color: blue;
+            }
+
+            @else if $animal==perro {
+                background-color: brown;
+            }
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            justify-content: center;
+            text-align: center;
+
+            h2 {
+                font-family: 'Shadows Into Light', cursive;
+                display: flex;
+                text-align: center;
+                justify-content: space-around;
+                background-image: linear-gradient(#BBBF41, #8C7D30);
+            }
+
+            div {
+                textarea {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.div__card1 {
+    display: inline-block;
+    text-align: center;
+    border: solid 1px black;
+    width: fit-content;
+    margin: 10px;
+    box-sizing: border-box;
+
+    img {
+        width: 40vw
+    }
+}
+
+.div__card2 {
+    @extend .div__card1;
+}
+
+#div__section2__text {
+    display: flex;
+    text-align: center;
+    border-radius: 10%;
+    margin: 20px;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+
+.div__cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
