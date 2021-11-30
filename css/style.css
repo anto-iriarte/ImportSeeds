@@ -155,6 +155,19 @@ html #guiaVegetativa {
           align-items: center;
 }
 
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
+  background-image: linear-gradient(#BBBF41, #8C7D30);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -261,6 +274,15 @@ body main section div textarea {
           justify-content: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.body__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 form a {
