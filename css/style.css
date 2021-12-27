@@ -14,6 +14,7 @@ html {
 
 html body {
   max-width: 1400px;
+  position: relative;
 }
 
 html body header div nav {
@@ -56,9 +57,11 @@ html body main div {
 }
 
 html body footer {
+  bottom: 0;
   width: 100%;
   height: auto;
   background-color: #BBBF41;
+  padding: 10px 5px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-text-decoration: black;
@@ -111,10 +114,70 @@ html body footer .footer__redes .whatsapp-icono {
   display: inline-block;
 }
 
+html .guiaFloracion {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 20;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 html #guiaVegetativa {
   background-color: #D9D9D9;
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 20;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .guiaGerminacionDescripcion {
+  padding: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloContenedor {
+  background-image: url("../imagenes/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+}
+
+.titulo {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 15px;
+}
+
+.guiaGerminacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .bodyIndex {
+    height: 100vh;
+  }
 }
 
 .fotoProdu {
@@ -124,9 +187,7 @@ html #guiaVegetativa {
   margin: 10px;
   background-repeat: no-repeat;
   height: 200px;
-  background-image: url(../imagenes/010920.png);
-  background-size: contain;
-  background-color: #8C7D30;
+  background-image: #E2E8E5;
   border-radius: 10px;
   background-position: center;
   -webkit-transition: 0.5s;
@@ -135,6 +196,30 @@ html #guiaVegetativa {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.fotoProdu .fotoDescripcion {
+  color: black;
+  padding: 0 10px;
+  font-size: 13px;
+  font-family: cursive;
+  background-color: rgba(255, 255, 255, 0.26);
+  text-align: center;
+  font-weight: 10px;
+}
+
+.fotoProdu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: contain;
 }
 
 .fotoProdu:hover {
@@ -143,137 +228,29 @@ html #guiaVegetativa {
 }
 
 #imagen1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-image: url("../imagenes/producto1.jpeg");
 }
 
-h1 {
+#imagen2 {
+  background-image: url("../imagenes/producto2.jpeg");
+}
+
+#imagen3 {
+  background-image: url("../imagenes/producto 3.jpeg");
+}
+
+.tituloContenedor {
+  background-image: url("../imagenes/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+}
+
+.titulo {
+  color: whitesmoke;
+  text-align: center;
   font-family: 'Shadows Into Light', cursive;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
-  background-image: linear-gradient(#BBBF41, #8C7D30);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body main h1 {
-  font-family: 'Shadows Into Light', cursive;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
-  background-image: linear-gradient(#BBBF41, #8C7D30);
-}
-
-body main p {
-  text-align: center;
-  background-color: brown;
-}
-
-body main section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-}
-
-body main section h2 {
-  font-family: 'Shadows Into Light', cursive;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
-  background-image: linear-gradient(#BBBF41, #8C7D30);
-}
-
-body main section div textarea {
-  display: none;
-}
-
-.div__card1, .div__card2 {
-  display: inline-block;
-  text-align: center;
-  border: solid 1px black;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.div__card1 img, .div__card2 img {
-  width: 40vw;
-}
-
-#div__section2__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  border-radius: 10%;
-  margin: 20px;
-  width: 40vw;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.div__cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  letter-spacing: 15px;
 }
 
 .body__form {
@@ -283,6 +260,11 @@ body main section div textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+form {
+  padding: 10px 0;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 form a {
@@ -304,6 +286,10 @@ form a {
   -ms-flex-line-pack: center;
       align-content: center;
   justify-items: center;
+}
+
+.produDest {
+  padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -333,20 +319,29 @@ form a {
         -ms-flex-pack: right;
             justify-content: right;
   }
+  .guiaGerminacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   .produDest {
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 50vh;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
-    background-image: linear-gradient(#BBBF41, #8C7D30);
+    background-image: #E2E8E5;
   }
   #div__section2__text {
     text-align: center;
@@ -385,9 +380,21 @@ form a {
     font-family: 'Shadows Into Light', cursive;
     font-size: 30;
   }
+  .guiaGerminacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   .produDest {
     width: 100%;
-    height: 100vh;
+    height: 550px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
@@ -395,8 +402,7 @@ form a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#BBBF41), to(#8C7D30));
-    background-image: linear-gradient(#BBBF41, #8C7D30);
+    background-image: #E2E8E5;
   }
 }
 

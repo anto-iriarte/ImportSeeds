@@ -13,7 +13,7 @@ html {
     
     body {
         max-width: 1400px;
-        
+        position: relative;
         header {
             div {
                 
@@ -49,55 +49,61 @@ html {
             }
         }
         
-        footer {
-            width: 100%;
-            height: auto;
-            background-color: #BBBF41;
-            justify-content: space-around;
-            text-decoration: black;
-            font-family: 'Shadows Into Light', cursive;
-            display: flex;
-            
-            .footIndex {
-                display: flex;
-                align-items: center;
-            }
-            
-            .footer__redes {
-                display: flex;
-                align-items: center;
-                display: inline-block;
-                margin: 3px;
-                
-                @each $redes in instagram,
-                whatsapp {
-                    .#{$redes}-icono {
-                        background-image: url("../imagenes/#{$redes}.png");
-                        width: 20px;
-                        height: 20px;
-                        background-size: cover;
-                        align-items: center;
-                        display: inline-block;
-                    }
-                }
-                
-            }
-        }
+        @import "footer";
     }
     
-    
+    .guiaFloracion {
+        font-family: 'Palanquin Dark', sans-serif;
+        font-size: 20;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
     #guiaVegetativa {
         background-color: #D9D9D9;
         font-family: 'Palanquin Dark', sans-serif;
         font-size: 20;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
     }
 
-    
+    .guiaGerminacionDescripcion {
+        padding: 20px;
+        font-family: 'Palanquin Dark', sans-serif;
+        text-align: center;
+        align-items: center;
+    }
 }
 
+.tituloContenedor {
+    background-image: url("../imagenes/banner2.png");  
+    background-repeat: no-repeat;
+background-size: cover;
+padding: 10px 0;
+}
+.titulo{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 15px;
+}
+.guiaGerminacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .bodyIndex {
+        height: 100vh;
+    }
+}
 
 @import "productos";
-    @import "ustedes";
     @import "contacto";
     @import "mediaCompu";
     @import "mediaTablet";

@@ -1,0 +1,37 @@
+footer {
+  
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #BBBF41;
+    padding: 10px 5px;
+    justify-content: space-around;
+    text-decoration: black;
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    
+    .footIndex {
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer__redes {
+        display: flex;
+        align-items: center;
+        display: inline-block;
+        margin: 3px;
+        
+        @each $redes in instagram,
+        whatsapp {
+            .#{$redes}-icono {
+                background-image: url("../imagenes/#{$redes}.png");
+                width: 20px;
+                height: 20px;
+                background-size: cover;
+                align-items: center;
+                display: inline-block;
+            }
+        }
+        
+    }
+}
