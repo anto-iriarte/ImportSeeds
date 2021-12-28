@@ -9,10 +9,13 @@ html {
   font-size: 62, 5%;
   width: 100%;
   height: 100%;
+  background-color: whitesmoke;
 }
 
 html body {
   position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 html body header div nav {
